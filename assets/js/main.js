@@ -19,7 +19,15 @@ function updateProfileInfo(profileData) {
     
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
-    phone.href = `mailto:${profileData.email}`
+    email.href = `mailto:${profileData.email}`
+
+    const git = document.getElementById('profile.git')
+    git.innerText = profileData.git
+    git.href = `${profileData.git}`
+
+    const linkedin = document.getElementById('profile.linkedin')
+    linkedin.innerText = profileData.linkedin
+    linkedin.href = `${profileData.linkedin}`
 }
 
 function updateSoftSkills(profileData) {

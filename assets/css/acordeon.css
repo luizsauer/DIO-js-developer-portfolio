@@ -5,7 +5,9 @@
     margin: 1rem 0;
     border: 1px solid #fff;
     border-radius: 1rem;
-    transition: .25s;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
 }
 
 .acordeon.open,
@@ -25,6 +27,7 @@
     background-color: transparent;
     color: #fff;
     border: none;
+    cursor: pointer;
 }
 
 .acordeon .trigger h2 {
@@ -32,9 +35,29 @@
     font-size: 1.5rem;
     text-align: start;
 }
+.acordeon:hover {
+    background-color: #2a2d2a;  /* Cinza escuro sutil */
+    border-color: #5a5d5a;  /* Cinza médio para um efeito mais discreto */
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(90, 93, 90, 0.5);  /* Sombra suave */
+}
 
+/* Efeito de pulsação ao passar o mouse */
+@keyframes pulse {
+    0% { box-shadow: 0 0 5px rgba(90, 93, 90, 0.3); }
+    50% { box-shadow: 0 0 15px rgba(90, 93, 90, 0.6); }
+    100% { box-shadow: 0 0 5px rgba(90, 93, 90, 0.3); }
+}
+
+.acordeon:hover {
+    animation: pulse 1s infinite alternate;
+}
+
+/* Animação para o trigger ao passar o mouse */
 .acordeon .trigger:hover {
-    cursor: pointer;
+    color: #a0a3a0; /* Cinza claro para um contraste suave */
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
 }
 
 .acordeon .trigger::after {
@@ -45,7 +68,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url('../img/icons/arrow-top.svg');
-    transition: .25s;
+    transition: transform 0.3s ease-in-out;
 }
 
 .acordeon.open .trigger::after {
@@ -56,7 +79,7 @@
     overflow: hidden;
     height: 0;
     opacity: 0;
-    transition: opacity .25s ease-in-out;
+    transition: opacity 0.5s ease-in-out, height 0.3s ease-in-out;
 }
 
 .acordeon.open .content {
