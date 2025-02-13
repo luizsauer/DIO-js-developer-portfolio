@@ -10,8 +10,8 @@
 
 .acordeon.open,
 .acordeon:hover {
-    background-color: #55569E;
-    border-color: #55569E;
+    background-color: #0e110e;
+    border-color: #0e110e;
 }
 
 .acordeon .trigger {
@@ -38,13 +38,13 @@
 }
 
 .acordeon .trigger::after {
-    content: '';
+    content: "";
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../img/icons/arrow-top.svg');
+    background-image: url('/assets/img/icons/arrow-top.svg');
     transition: .25s;
 }
 

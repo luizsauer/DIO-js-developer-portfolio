@@ -15,13 +15,15 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../img/icons/header.svg');
+    background-image: url('/assets/img/icons/header.svg');
+    margin-right: .5rem;
 }
 
 .header .photo {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin: 1rem;
 }
 
 .header .title {
@@ -34,13 +36,14 @@
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+    margin-left: 20px;
 }
 
 .information p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: .5rem;
+    margin: .8rem;
     font-size: 1.125rem;
 }
 
@@ -55,25 +58,23 @@
 }
 
 .information .job::before {
-    background-image: url('../img/icons/job.svg');
+    background-image: url('/assets/img/icons/job.svg');
 }
-
 .information .location::before {
-    background-image: url('../img/icons/location.svg');
+    background-image: url('/assets/img/icons/location.svg');
 }
-
-.information .email::before {
-    background-image: url('../img/icons/email.svg');
-}
-
 .information .phone::before {
-    background-image: url('../img/icons/phone.svg');
+    background-image: url('/assets/img/icons/phone.svg');
 }
+.information .email::before {
+    background-image: url('/assets/img/icons/email.svg');
+}
+
 
 @media only screen and (min-width: 768px) {
     .header {
         display: grid;
-        grid-template-areas:
+        grid-template-areas: 
             "photo title"
             "photo information"
         ;
@@ -83,14 +84,13 @@
         grid-area: photo;
         margin: 0 auto;
     }
-
     .header .title {
         grid-area: title;
         text-align: start;
-        max-width: 210px;
+        max-width: 200px;
     }
-
     .header .information {
         grid-area: information;
+        margin: 0;
     }
 }

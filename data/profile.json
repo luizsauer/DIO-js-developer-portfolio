@@ -1,10 +1,10 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Luiz H. Sauer",
+  "photo": "https://scontent-gru2-2.cdninstagram.com/v/t51.2885-19/300923464_420793489919633_4431613875366308080_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-gru2-2.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AEOURahTkyGkVpqh_kj6325HVDcnmEmlNeleZBjuPrO_G0cYHBSdsqCPSU36ydg0J9GI_qT1bj3UmJYsRcS3Cbw&_nc_ohc=87kcLeDHukoQ7kNvgFSJQs3&_nc_gid=bd6ecd03973c4bdb9783b42708ccedba&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AYA4iBGr4i8QRp2DcoSnxz0SGTX7Aws9Ddnaj6-ft1o5Fw&oe=67B31C99&_nc_sid=7a9f4b",
+  "job": "Dev Full Stack",
+  "location": "Curitiba - PR",
+  "phone": "(41) 998 905 786",
+  "email": "lhssauer@gmail.com",
   "skills": {
     "hardSkills": [
       {
@@ -12,24 +12,24 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "Css",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+      },
+      {
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png"
       },
       {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "MySQL",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mysql.png"
       }
     ],
     "softSkills": [
@@ -43,8 +43,7 @@
   "languages": [
     "Português BR",
     "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Espanhol (intermediário)"
   ],
   "portfolio": [
     {

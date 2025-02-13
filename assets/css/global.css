@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 @font-face {
     font-family: 'Neue Machina';
-    src: url('../fonts/neue-machina-regular.otf');
+    src: url('/assets/fonts/NeueMachina-Regular.otf');
 }
+
 
 body {
     background-color: #000;
@@ -23,8 +24,8 @@ a:hover {
 }
 
 .main {
-    margin: 1rem;
     padding: 1rem;
+    margin: .5rem;
     border: 1px solid #fff;
     border-radius: 1rem;
 }
@@ -32,7 +33,7 @@ a:hover {
 .main::before,
 .main::after {
     content: '';
-    background-image: url('../img/background.svg');
+    background-image: url('/assets/img/background1.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -52,7 +53,6 @@ a:hover {
     right: 0;
     transform: rotate(180deg);
 }
-
 
 @media only screen and (min-width: 768px) {
     .main {
