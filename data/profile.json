@@ -1,7 +1,7 @@
 {
   "name": "Luiz H. Sauer",
   "photo": "https://i.ibb.co/TxYm0rJT/1142581365-f.jpg",
-  "job": "Dev Full Stack",
+  "job": "Estagiário de Programação",
   "location": "Curitiba - PR",
   "phone": "(41) 998 905 786",
   "email": "lhssauer@gmail.com",
@@ -44,41 +44,23 @@
   },
   "languages": [
     "Português BR",
-    "Inglês: Leitura/Escrita - Intermediário   Fala/Escuta - Básico ",
+    "Inglês: Leitura/Escrita - Intermediário | Fala/Escuta - Básico ",
     "Espanhol: Leitura/Escrita/Fala/Escuta - Intermediário"
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Criação de uma Pokedex - Usando JS e APIs",
+      "url": "https://github.com/luizsauer/DIO-JS-Developer-Pokedex",
       "github": true
-    },
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
-    },
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": false
     }
+
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
+      "name": "Programador Python",
+      "period": "2024 - até o momento",
       "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-    },
-    {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
     }
+
   ]
 }

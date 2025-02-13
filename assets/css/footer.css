@@ -8,6 +8,6 @@ footer {
 }
 
 footer img {
-    max-width: 100px;
-    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.3));
+    max-width: 70px;
+    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.5));
 }
